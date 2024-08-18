@@ -1,23 +1,39 @@
 function Nav1() {
   return (
     <div className="container">
-    <div>
+      <div>
         <nav>
-          <div>
-            <img src="/images/brand_logo.png" alt="logo" />
-          </div>
-          <div>
-            <ul>
-              <li href="#">Menu</li>
-              <li href="#">Location</li>
-              <li href="#">About</li>
-              <li href="#">Contact</li>
-            </ul>
-          </div>
-          <button>Login</button>
+          <img src="/images/logo.png" alt="logo" />
         </nav>
+        <div className="Contact">
+          <h1>CONTACT US</h1>
+          <p>
+            LET’S CONNECT: WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM YOU!
+            WHETHER YOU HAVE A QUESTION, COMMENT, OR JUST WANT TO CHAT , YOU CAN
+            REACH OUT TO US THROUGH THE CONTACT FORM OF THIS PAGE, OR BY PHONE,
+            EMAIL, OR SOCIAL MEDIA.
+          </p>
+          </div>
+          <div className="contact-detail">
+            <div className="detail">
+              <div className="btn1">
+                <button>VIA SUPPORT CHAT</button>
+                <button>VIA CALL</button>
+              </div>
+              <div className="btn2">
+                <button>VIA EMAIL FORM</button>
+              </div>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="text-message" id="msg" />
+            </div>
+            <div className="contact-img">
+              <img src="/images/contact.svg" alt="logo" />
+            </div>
+          </div>
+      
       </div>
     </div>
   );
 }
-export default Nav1 ;
+export default Nav1;
